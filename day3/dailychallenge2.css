@@ -1,0 +1,34 @@
+.container {
+    height: 100px;
+    display: grid;
+    grid-template-areas:
+    a
+    'A B C D  '
+    'A B C D '
+    'A B C D '
+    
+}
+
+.A {
+grid-area: A;
+   background-color: yellow;
+}
+
+.B {
+grid-area: B;
+    background-color: red;
+
+}
+
+.C {
+    grid-area: C;
+
+    background-color: blue;
+
+}
+
+.D {
+    grid-area: D;
+
+    background-color: black;
+}

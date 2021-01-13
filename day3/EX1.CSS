@@ -1,0 +1,32 @@
+body {margin : 0}
+
+
+.container {
+
+    display: grid;
+    text-align: center;
+    grid-template-columns: 800px ;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    height: 140vh;
+}
+
+.firstone {
+
+    display: grid;
+    height : 50vh;
+    grid-gap: 20px;
+}
+
+.secondone {
+
+    display: grid;
+}
+
+.thirdone {
+
+    display: grid;
+    grid-gap: 20px;
+
+}
